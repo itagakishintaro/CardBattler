@@ -27,7 +27,11 @@ get '/' do
 end
 =end
 
-get '/:name' do |n|
-	@name = n
+# get '/:name' do |n|
+# 	@name = n
+# 	erb :index
+# end
+
+get '/' do
 	erb :index
 end

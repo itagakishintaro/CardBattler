@@ -1,0 +1,82 @@
+/*アクションエリア*/
+.action {
+	background-color: rgba(236,240,241,1.0);
+	height: 50px;
+}
+
+.action button {
+	margin: 5px 10px;
+}
+
+/*ユーザー情報エリア*/
+.userinfo {
+
+}
+
+.hp {
+	font-size: 20px;
+	text-align: right;
+}
+.energy > div {
+	height: 50px;
+	line-height: 50px;
+	font-size: 10px;
+}
+.energy-icon {
+	width: 30px;
+}
+.energy-num {
+	font-size: 16px;
+}
+
+/*カードエリア*/
+/*共通*/
+.card-area {
+	height: 400px;
+	background-color: rgba(255,255,240,1);
+}
+.card {
+	float: left;
+	position: relative;
+	margin: 10px;
+	background-color: white;
+	border: solid 1px lightgray;
+	border-radius: 10px;
+}
+.card img {
+	position: absolute;
+	top: 0;
+}
+.card table {
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	font-size: xx-small;
+}
+/*メインカード*/
+.card.main {
+	width: 200px;
+	height: 300px;
+}
+.card.main td {
+	text-align: right;
+}
+/*サブカード*/
+.card.sub {
+	width: 100px;
+	height: 150px;
+}
+.card.sub img {
+	width: 50px;
+	margin-left: 25px;
+}
+.card.sub p {
+	position: absolute;
+	bottom: 0;
+	padding: 0 2px;
+	font-size: xx-small;
+}
+.rival .card.sub {
+	background-color: lightgray;
+}
+
